@@ -1,0 +1,33 @@
+.services-container {
+    padding: 50px 20px;
+    background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f);
+    color: white;
+  }
+  
+  .service-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #333;
+  }
+  
